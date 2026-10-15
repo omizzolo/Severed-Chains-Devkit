@@ -7,7 +7,8 @@
       "request": "launch",
       "mainClass": "legend.game.Main",
       "vmArgs": "-Dscdk=true -Xms1g -Xmx2g -ea -Djoml.fastmath -Djoml.sinLookup -Djoml.useMathFma --add-opens java.base/java.util=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED",
-      "args": "-Xms1g"
+      "args": "-Xms1g",
+      "preLaunchTask": "Link mod resources"
     }
   ]
 }
