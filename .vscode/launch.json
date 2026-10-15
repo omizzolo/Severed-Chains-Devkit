@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch",
+      "request": "launch",
+      "mainClass": "legend.game.Main",
+      "vmArgs": "-Dscdk=true -Xms1g -Xmx2g -ea -Djoml.fastmath -Djoml.sinLookup -Djoml.useMathFma --add-opens java.base/java.util=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED",
+      "args": "-Xms1g"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Run game", "type": "shell", "command": "./gradlew runGame",
+      "group": { "kind": "build", "isDefault": true }, "problemMatcher": [] },
+    { "label": "Build mod", "type": "shell", "command": "./gradlew build", "problemMatcher": [] }
+  ]
+}
